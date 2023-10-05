@@ -1,0 +1,89 @@
+:root {
+    --fundo: #f6fafa;
+    --color-primary: #f3f4f6;
+    --color-secondary: #154580;
+    --cinza-claro: rgb(223, 229, 229);
+    --fundo-card: rgba(20, 68, 128, 0.30);
+    --lils: #B872FF;
+    --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
+
+    --fonte-principal: "Poppins";
+
+}
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    background: var(--fundo);
+    min-height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cinza-claro);
+    color: var(--color-secondary);
+    gap: 80px;
+    margin: .5rem;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: 'Unbounded', cursive;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navbar__menu-icone{
+    width: 4%;
+}
+
+.navbar__menu__link{
+    text-decoration: none;
+    color: var(--color-secondary);
+    padding: 1em;
+    align-content: center;
+}
+
+ .mobile-version {
+    display: none;
+} 
+
+.lista__projetos {
+    display: none;
+    position: absolute;
+    top: 60%;
+    width: 20vw;
+    background-color: var(--cinza-claro);
+}
+
+.lista__projetos-item{
+    padding: 0.4em;
+    list-style-type: none;
+    text-transform:initial;
+}
+
+.menu:hover {
+    background:var(--color-primary);
+    transition: .5s;
+}
+
+.lista__projetos-item:hover{
+    background: var(--color-primary);
+    padding: 0 20px;
+    font-size: 1em;
+    transition: .5s;
+}
+
+

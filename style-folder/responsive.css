@@ -1,0 +1,116 @@
+
+@media only screen and (max-width: 1023px) {
+    
+    
+    .navbar{
+        position: relative;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;  
+        
+    }
+    
+    .navbar__menu__link{
+        padding: 1em;
+    }
+
+
+    .container-about__me {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .content-about__me {
+        font-size: 2em;
+    }
+    
+    .social__midia-container {
+        width: 40%;
+    }
+
+    
+
+    .app__imagem-about__me {
+        width: 50%;    
+    }
+
+    .social__midia-container,
+    .app__imagem-about__me{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+
+   
+    
+    .projects__items {
+        display: block;
+        text-align: center;       
+    }
+
+    .title__skils {
+        font-size: 4em;
+    }
+
+    .app__projects-name {
+        font-size: 3em;
+    }
+
+    .projects__text {
+        font-size: 1.5em;
+        padding: .5em 0 2em 0;
+    }
+}
+
+/*
+@media only screen and (min-width: 1024px) and (max-width: 1399px){
+
+    .about__me{
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1400px){
+
+    .social__midia{
+        width: 50%;
+    }
+
+} 
+*/
+
+
+
+
+/* 
+@media only screen and (max-width: 400px){
+    .navbar__menu{
+        display: none;
+    }
+
+    .mobile-version{
+        display: flex;
+        background: var(--cinza-claro);
+        color: var(--color-secondary);
+        margin:0rem;
+        padding: 0.5rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-family: 'Unbounded', cursive;
+        position: relative;
+        text-transform: uppercase;
+        width: 100%;        
+    }
+
+    
+}
+*/

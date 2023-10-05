@@ -1,0 +1,47 @@
+/* ABOUT ME */
+
+.container-about__me {
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-primary);
+    align-items: center;
+    gap: 1rem;
+    /* padding: 5em 0em 0em 0em; */
+    margin: 1em;
+}
+
+.about__me {
+    color: var(--color-secondary);
+    padding: 20px;
+    margin: 1rem auto;
+    width: 85%;
+}
+
+.app__imagem-about__me{  
+    width: 60%;
+}
+
+.app__title {
+    font-size: 2rem;
+}
+
+.app__title-strong{
+    font-size: 2rem;
+}
+
+.content-about__me {
+    font-family:  'Arial';
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.social__midia-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;  
+    gap: 5rem; 
+    padding: 2em;
+}
+
+
