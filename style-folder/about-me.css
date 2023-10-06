@@ -4,21 +4,22 @@
     display: flex;
     justify-content: space-between;
     background: var(--color-primary);
-    align-items: center;
+    align-items: center; 
     gap: 1rem;
-    /* padding: 5em 0em 0em 0em; */
+    padding: 5em 0em 0em 0em;  
     margin: 1em;
 }
 
 .about__me {
     color: var(--color-secondary);
-    padding: 20px;
+    padding: 1rem auto;
     margin: 1rem auto;
-    width: 85%;
+    width: 90%;
 }
 
 .app__imagem-about__me{  
-    width: 60%;
+    text-align: center;
+    width: 50%;
 }
 
 .app__title {
@@ -32,14 +33,14 @@
 .content-about__me {
     font-family:  'Arial';
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .social__midia-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;  
+    width: 40%;  
     gap: 5rem; 
     padding: 2em;
 }

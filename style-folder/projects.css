@@ -31,7 +31,7 @@
 }
 
 .projects__img {
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -39,7 +39,7 @@
     display: grid;
     padding: 0 0 3em 0;
     color: var(--color-secondary);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight:500;
     grid-template-columns: 1fr 2fr;
     grid-gap: 30px;
@@ -54,7 +54,6 @@
     background-color: var(--fundo);
     max-width: 60%;
     margin: 1em auto;
-    padding: 6px 2px;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
