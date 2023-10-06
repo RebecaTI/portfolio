@@ -1,7 +1,7 @@
 .projects {
     background: var(--color-primary);
     margin: 1em;
-    padding: 1em 3em 2em 3em; 
+    padding: 1em auto; 
 }
 
 .title__skils {
@@ -27,7 +27,7 @@
 .app__projects-name {
     font-size: 2em;
     color: var(--color-secondary);
-    padding: 1em 1em 0em 2em;
+    padding: 0em 0em 0em 2em; 
 }
 
 .projects__img {

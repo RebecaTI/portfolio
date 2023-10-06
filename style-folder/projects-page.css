@@ -1,0 +1,19 @@
+.projects-page {
+    padding: 2em 1em 0em 1em;
+}
+
+.projects__studying {
+    background: var(--cinza-claro);
+    width: 12em;
+    height:5em;
+    display: flex;
+}
+
+.projects__items-page{
+    justify-content: center;
+    text-align: center;
+    color: var(--color-secondary);
+    font-size: 1rem;
+    font-weight:500;
+    text-align: center;
+}
